@@ -1,0 +1,21 @@
+﻿/* Importamos la fuente Roboto de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f4f4f4;
+
+h2, .navbar-brand {
+    font-weight: 700; /* Roboto en negrita para títulos y la marca del navbar */
+}
+
+.navbar {
+    box-shadow: 0 2px 5px rgba(0,0,0,.1); 
+}
+
+
+.btn {
+    font-weight: 500;
+    letter-spacing: 0.05em; 
+}
+

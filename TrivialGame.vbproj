@@ -96,7 +96,32 @@
     <Content Include="App_Data\TrivialBD_log.ldf">
       <DependentUpon>TrivialBD.mdf</DependentUpon>
     </Content>
+    <Content Include="Content\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-grid.rtl.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.rtl.css" />
+    <Content Include="Content\bootstrap\css\bootstrap.rtl.min.css" />
+    <Content Include="Content\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.esm.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.esm.min.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.js" />
+    <Content Include="Content\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Content\custom.css" />
+    <Content Include="diagrama_entidad-relacion.png" />
     <Content Include="Pages\Default.aspx" />
+    <Content Include="tablasSQL.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +166,28 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.rtl.css.map" />
+    <Content Include="Content\bootstrap\css\bootstrap.rtl.min.css.map" />
+    <Content Include="Content\bootstrap\js\bootstrap.bundle.js.map" />
+    <Content Include="Content\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Content\bootstrap\js\bootstrap.esm.js.map" />
+    <Content Include="Content\bootstrap\js\bootstrap.esm.min.js.map" />
+    <Content Include="Content\bootstrap\js\bootstrap.js.map" />
+    <Content Include="Content\bootstrap\js\bootstrap.min.js.map" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
