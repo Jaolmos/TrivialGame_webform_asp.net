@@ -19,14 +19,31 @@ La base de datos de la aplicación de Trivial utiliza un diseño entidad-relaci�
 - **Gestión de preguntas**: Los administradores pueden agregar, editar y eliminar preguntas a través de un panel de administración.
 - **Diseño responsivo**: Aprovecha Bootstrap para asegurar que la aplicación funcione bien en dispositivos de diferentes tamaños.
 
-## Estructura de Archivos
-- `Default.aspx`: Página principal que muestra las preguntas del juego y recoge respuestas de los usuarios.
-- `Admin.aspx`: Página para la gestión de preguntas, accesible solo por los administradores.
-- `App_Code/`: Contiene las clases de lógica de negocio y acceso a datos, implementando el patrón Repository.
-  - `QuestionRepository.vb`: Clase que abstrae el acceso a las preguntas almacenadas en la base de datos.
-- `Content/`: Directorio para archivos CSS y JavaScript.
-  - `bootstrap/`: Carpeta que contiene los archivos de Bootstrap.
-  - `custom.css`: Hoja de estilos personalizados para la aplicación.
+### Estructura de Archivos
+La estructura de archivos de la aplicación se organiza de la siguiente manera para facilitar la mantenibilidad y la escalabilidad del proyecto:
+
+- `App_Code/`:
+  - `Models/`: Contiene los modelos de datos utilizados en la aplicación.
+    - `Pregunta.vb`: Define la estructura de las preguntas.
+    - `Respuesta.vb`: Define la estructura de las respuestas.
+  - `Repositories/`: Implementa el patrón Repository para abstraer las operaciones de acceso a datos.
+    - `IPreguntaRepositorio.vb`: Interfaz para las operaciones del repositorio de preguntas.
+    - `PreguntaRepositorio.vb`: Implementación concreta del repositorio de preguntas.
+  - `ConexionBD.vb`: Gestiona la conexión a la base de datos `TrivialBD.mdf`.
+
+- `App_Data/`:
+  - `TrivialBD.mdf`: Base de datos del proyecto que almacena toda la información relativa a preguntas y respuestas.
+
+- `Content/`:
+  - `bootstrap/`: Carpeta que contiene los archivos de Bootstrap necesarios para el diseño responsivo y estilizado de la aplicación.
+  - `custom.css`: Hoja de estilos personalizados para adaptar los estilos visuales más allá de Bootstrap.
+
+- `Pages/`:
+  - `Default.aspx`: Página principal que muestra las preguntas del juego y recoge respuestas de los usuarios.
+  - `Default.aspx.vb`: Codebehind de `Default.aspx` que contiene la lógica de la interfaz de usuario para manejar eventos como la respuesta a preguntas.
+
+Esta estructura está diseñada para separar claramente la lógica de la presentación, la lógica de negocio y el acceso a datos, siguiendo las mejores prácticas de desarrollo de software.
+
 
 ## Configuración y Despliegue
 1. Asegúrese de tener instalado el .NET Framework 4.8.
