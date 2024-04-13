@@ -1,0 +1,14 @@
+CREATE TABLE Preguntas (
+    IDPregunta INT IDENTITY(1,1) PRIMARY KEY,  
+    TextoPregunta NVARCHAR(MAX)
+);
+
+CREATE TABLE Respuestas (
+    IDRespuesta INT IDENTITY(1,1) PRIMARY KEY,  
+    IDPregunta INT FOREIGN KEY REFERENCES Preguntas(IDPregunta),  
+    TextoRespuesta NVARCHAR(MAX),                
+    EsCorrecta BIT                              
+);
+
+
+
