@@ -1,11 +1,11 @@
 # Aplicación de Juego de Trivial en ASP.NET WebForms
 
 ## Descripción
-Esta aplicación web desarrollada en VB.NET proporciona un entorno interactivo donde los usuarios pueden participar en un juego de trivial. Los jugadores responden preguntas seleccionadas al azar y reciben retroalimentación inmediata sobre sus respuestas.
+Esta aplicación web desarrollada en VB.NET proporciona un entorno interactivo donde los usuarios pueden participar en un juego de trivial. Los jugadores responden a 10 preguntas aleatorias. 
 
 ## Entorno de Desarrollo
 - **Framework**: .NET Framework 4.7.2
-- **Front-end**: Bootstrap 4 para un diseño responsivo y estéticamente agradable.
+- **Front-end**: Bootstrap 5 para un diseño responsivo y estéticamente agradable.
 - **Back-end**: VB.NET como lenguaje de programación.
 - **Patrón de diseño**: Utiliza el patrón Repository para gestionar las operaciones de datos relacionadas con las preguntas y respuestas del juego.
 
